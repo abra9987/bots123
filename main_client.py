@@ -14,11 +14,7 @@ from telegram.ext import (
     ConversationHandler,
     CallbackContext,
 )
-from config import TELEGRAM_CLIENT_TOKEN, OPENAI_API_KEY, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD
-
-from config import TELEGRAM_TOKEN_CLIENT
-print("Telegram Client Token:", TELEGRAM_TOKEN_CLIENT)
-
+from config import TELEGRAM_TOKEN_CLIENT, OPENAI_API_KEY, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD
 
 # Настройка OpenAI API
 openai.api_key = OPENAI_API_KEY
