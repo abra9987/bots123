@@ -1,16 +1,15 @@
 import os
 
-# Токены ботов
-TELEGRAM_CLIENT_TOKEN = os.environ.get("TELEGRAM_CLIENT_TOKEN")  # для клиентского бота
-TELEGRAM_ADMIN_TOKEN = os.environ.get("TELEGRAM_ADMIN_TOKEN")    # для админ-бота
+# Токены Telegram-ботов
+TELEGRAM_TOKEN_CLIENT = os.environ.get("TELEGRAM_TOKEN_CLIENT")
+TELEGRAM_TOKEN_ADMIN = os.environ.get("TELEGRAM_TOKEN_ADMIN")
 
-# Ключ OpenAI
+# Ключ OpenAI API
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-# Параметры подключения к PostgreSQL
+# Параметры подключения к базе данных PostgreSQL
 DB_HOST = os.environ.get("DB_HOST")
 DB_PORT = os.environ.get("DB_PORT")
 DB_NAME = os.environ.get("DB_NAME")
 DB_USER = os.environ.get("DB_USER")
 DB_PASSWORD = os.environ.get("DB_PASSWORD")
-
