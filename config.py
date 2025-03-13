@@ -1,8 +1,8 @@
 import os
 
 # Токены Telegram-ботов
-TELEGRAM_TOKEN_CLIENT = os.environ.get("TELEGRAM_TOKEN_CLIENT")
-TELEGRAM_TOKEN_ADMIN = os.environ.get("TELEGRAM_TOKEN_ADMIN")
+TELEGRAM_CLIENT_TOKEN = os.environ.get("TELEGRAM_CLIENT_TOKEN")
+TELEGRAM_ADMIN_TOKEN = os.environ.get("TELEGRAM_ADMIN_TOKEN")
 
 # Ключ OpenAI API
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
