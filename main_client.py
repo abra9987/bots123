@@ -291,7 +291,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
     return ConversationHandler.END
 
 def main():
-    updater = Updater(TELEGRAM_CLIENT_TOKEN, use_context=True)
+    updater = Updater(TELEGRAM_TOKEN_CLIENT, use_context=True)
     dp = updater.dispatcher
 
     conv_handler = ConversationHandler(
